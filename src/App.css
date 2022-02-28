@@ -1,0 +1,57 @@
+.App {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote__card {
+  width: 450px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 7px 7px 5px rgba(0,0,0,0.1);
+  background-color: white;
+  border: 1px solid black;
+}
+
+.quote__card-author,
+.quote__card-button {
+  width: 100%;
+}
+
+.quote__card-author {
+  display: flex;
+  justify-content: end;
+  right: 10px;
+}
+
+.quote__card-button {
+  display: flex;
+  justify-content: end;
+  padding-top: 10px;
+}
+
+button {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+button i {
+  color: white;
+}
