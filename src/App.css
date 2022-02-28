@@ -55,3 +55,13 @@ button {
 button i {
   color: white;
 }
+
+.quote__text {
+  display: flex;
+  align-items: center;
+}
+
+span i {
+  font-size: 70px;
+  padding-right: 10px;
+}

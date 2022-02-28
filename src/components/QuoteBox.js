@@ -20,7 +20,10 @@ const QuoteBox = () => {
   return (
     <div className="quote__card" style={{color: color}} >
       <div className="container">
-        <p className='quote__card-text '> <span><i className="fa-solid fa-quote-left"></i></span> {quote.quote} </p>
+        <div className="quote__text">
+          <span><i className="fa-solid fa-quote-left"></i></span> 
+          <p className='quote__card-text '>{quote.quote} </p>
+        </div>
         <div className="quote__card-author">
           <small> {quote.author} </small>
         </div>
