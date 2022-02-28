@@ -33,13 +33,13 @@
 
 .quote__card-author {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   right: 10px;
 }
 
 .quote__card-button {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   padding-top: 10px;
 }
 
