@@ -25,7 +25,7 @@ const QuoteBox = () => {
           <small> {quote.author} </small>
         </div>
         <div className="quote__card-button">
-          <button onClick={ChangeQuote} style={{background: color}} ><i className="fa-solid fa-angle-right">j</i></button>
+          <button onClick={ChangeQuote} style={{background: color}} ><i className="fa-solid fa-angle-right"></i></button>
         </div>
       </div>
     </div>
